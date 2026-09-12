@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" role="img" aria-label="IIMedGPT 病情描述增强功能示意图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf9ff"/><stop offset="1" stop-color="#f9fcff"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d7dcc"/><stop offset="1" stop-color="#12bcae"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1b5d90" flood-opacity=".12"/></filter>
+    <style>.t{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#143766}.m{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#6c88a7}.w{font-family:Arial,'Microsoft YaHei',sans-serif;fill:white}.h{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#123563;font-weight:700}</style>
+  </defs>
+  <rect width="1440" height="850" fill="url(#bg)"/>
+  <rect width="230" height="850" fill="#073b7e"/>
+  <rect x="22" y="25" width="41" height="41" rx="12" fill="url(#brand)"/><path d="M31 46h23M42.5 35v22" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <text x="76" y="47" class="w" font-size="26" font-weight="700">IIMedGPT</text><text x="76" y="68" class="w" font-size="11" opacity=".75">智慧健康助手</text>
+  <rect x="14" y="105" width="202" height="53" rx="9" fill="#0b78b9"/><rect x="14" y="105" width="4" height="53" rx="2" fill="#4ee1cf"/>
+  <g class="w" font-size="16"><text x="51" y="138">智能问诊</text><text x="51" y="202">健康档案</text><text x="51" y="266">知识库检索</text><text x="51" y="330">病例分析</text><text x="51" y="394">用药与风险提示</text></g>
+  <rect x="258" y="20" width="1155" height="47" rx="11" fill="#fff" stroke="#dcebf7"/><text x="285" y="49" class="m" font-size="14">◉  以人工智能，助力更好的医疗健康服务</text>
+  <text x="266" y="119" class="h" font-size="31">病情描述增强：让模型更准确理解用户信息</text><text x="266" y="149" class="m" font-size="17">保留原始描述 · 提取已提供信息 · 标记待补充内容 · 用户确认后发送</text>
+  <g filter="url(#shadow)"><rect x="258" y="180" width="1155" height="594" rx="17" fill="#fff"/></g>
+  <rect x="283" y="204" width="46" height="46" rx="14" fill="url(#brand)"/><text x="345" y="232" class="h" font-size="19">IIMedGPT 智慧健康助手</text><rect x="1170" y="214" width="96" height="27" rx="7" fill="#e8f3ff"/><text x="1184" y="233" fill="#287fd0" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12">知识库增强</text>
+  <rect x="283" y="271" width="1105" height="91" rx="11" fill="#f8fbff" stroke="#cfdfef" stroke-width="1.5"/><text x="304" y="301" class="m" font-size="14">用户输入的原始描述</text><text x="304" y="331" class="t" font-size="16">男，52岁，近3个月口渴、多饮、乏力，空腹血糖8.6 mmol/L，正在服用二甲双胍，想了解饮食注意事项。</text>
+  <rect x="1124" y="378" width="241" height="43" rx="9" fill="#e6fbf7"/><text x="1144" y="406" fill="#0b898d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="700">✦ 增强描述</text>
+  <path d="M1244 430v26" stroke="#20aa9e" stroke-width="2" stroke-dasharray="5 5"/><path d="M1238 450l6 8 6-8" fill="none" stroke="#20aa9e" stroke-width="2"/>
+  <rect x="283" y="467" width="1105" height="244" rx="12" fill="#f5fffd" stroke="#bde8e0" stroke-width="1.5"/>
+  <text x="305" y="498" fill="#107b82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="17" font-weight="700">✦ 病情描述增强</text><text x="305" y="522" class="m" font-size="13">请核对增强内容；未提供的信息会标注为“待补充”。</text>
+  <rect x="305" y="540" width="505" height="143" rx="8" fill="#f3f8fc" stroke="#dae8f3"/><text x="322" y="565" class="m" font-size="13" font-weight="700">原始描述（始终保留）</text><text x="322" y="594" class="t" font-size="14">男，52岁，近3个月口渴、多饮、乏力，</text><text x="322" y="620" class="t" font-size="14">空腹血糖8.6 mmol/L，正在服用二甲双胍，</text><text x="322" y="646" class="t" font-size="14">想了解饮食注意事项。</text>
+  <rect x="830" y="540" width="535" height="143" rx="8" fill="#fff" stroke="#bde4dd"/><text x="847" y="565" fill="#167f85" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" font-weight="700">增强后描述（用户可编辑）</text><text x="847" y="591" class="t" font-size="13">【基本信息】男；52岁　【主诉】口渴、多饮、乏力</text><text x="847" y="616" class="t" font-size="13">【病程】近3个月　【检查】空腹血糖8.6 mmol/L</text><text x="847" y="641" class="t" font-size="13">【用药】正在服用二甲双胍　【目标】饮食注意事项</text><text x="847" y="666" fill="#d4754d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12">【待补充】既往疾病、过敏史、药物剂量与用药时间</text>
+  <rect x="305" y="727" width="137" height="32" rx="7" fill="#edf5fe"/><text x="325" y="749" fill="#346795" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" font-weight="700">应用到输入框</text><rect x="1090" y="727" width="132" height="32" rx="7" fill="#eff3f8"/><text x="1110" y="749" fill="#5a728d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" font-weight="700">保留原文发送</text><rect x="1231" y="727" width="134" height="32" rx="7" fill="url(#brand)"/><text x="1249" y="749" class="w" font-size="13" font-weight="700">使用增强描述发送</text>
+  <text x="265" y="815" class="m" font-size="12">安全机制：服务端只接受原文中逐字存在的片段；任何模型补全、病史推断或虚构检查结果都会被过滤。</text>
+</svg>

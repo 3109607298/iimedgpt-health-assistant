@@ -1,5 +1,6 @@
 .github-token
 github-token.txt
+github-token*.txt
 qwenmed-server.log
 qwenmed-server-error.log
 qwen-ssh-tunnel.log
